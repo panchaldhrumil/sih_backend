@@ -11,7 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI(title="SIH Crop Rec & Yield API")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://your-frontend.vercel.app"],  # or ["*"] for testing
+    allow_origins=["https://sih-frontend-git-main-dhrumils-projects-a35461ec.vercel.app"],  # or ["*"] for testing
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
